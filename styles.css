@@ -1,0 +1,87 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+.container {
+    border: 1px solid white;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    background-color: rgb(60, 57, 57);
+    border: none;
+    border-radius: 2rem;
+}
+
+p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h3 {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.inputBar {
+    padding: 0.7rem 1.5rem;     /* top, right, bottom, left */
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+}
+
+input:disabled {
+    background-color: #f5f5f5; 
+}
+
+.submitBtn {
+    padding: 0.7rem 1.7rem;
+    color: white;
+    background-color: rgb(248, 81, 3);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.submitBtn:hover {
+    background-color: rgb(198, 67, 6);
+    cursor: pointer;
+}
+
+.preGuess {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.remGuess {
+    text-align: center;
+}
+
+.lowHi {
+    color: yellow;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.startNewGameBtn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.7rem;
+    background-color: rgb(1, 112, 1);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    visibility: hidden;
+    cursor: pointer;
+}
